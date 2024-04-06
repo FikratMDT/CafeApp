@@ -1,0 +1,15 @@
+//
+//  CafeList.json
+//  CafeApp
+//
+//  Created by Fikrat on 03.04.24.
+//
+
+import Foundation
+
+
+[
+            {"id": 1, "name": "Cafe City Ganjlik", "lat": 40.7128, "long": -74.0060, "url": "https://cafecity.az/ru/restaurant/cafecity-ganjlik", "category": "Cafe"},
+            {"id": 2, "name": "Starbucks 28 mall", "lat": 34.0522, "long": -118.2437, "url": "https://www.starbucks.az", "category": "Coffee Shop"},
+            {"id": 3, "name": "Mado", "lat": 51.5074, "long": -0.1278, "url": "https://cafe-c.com", "category": "Cafe"}
+]
