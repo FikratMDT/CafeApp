@@ -10,6 +10,8 @@ import UIKit
 class CafeListCollectionViewCell: UICollectionViewCell {
     
   static  let identifier = "CafeListCollectionViewCell"
+    var cafes =  [CafeListModel]()
+
     
     var cafeNameLabel: UILabel = {
         
@@ -44,6 +46,15 @@ class CafeListCollectionViewCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         cafeNameLabel.frame = CGRect(x: 5, y: contentView.frame.size.height - 50, width: contentView.frame.size.width - 10, height: 40)
+    }
+    
+    public func configure(label: String) {
+        cafeNameLabel.text = label
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        cafeNameLabel.text = nil
     }
     
 //    func setupUI() {

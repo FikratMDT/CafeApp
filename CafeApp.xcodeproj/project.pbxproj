@@ -16,6 +16,7 @@
 		914B1E632BBDE255007ADF22 /* CafeList.json in Resources */ = {isa = PBXBuildFile; fileRef = 914B1E622BBDE255007ADF22 /* CafeList.json */; };
 		914B1E652BBDE78D007ADF22 /* CafeListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1E642BBDE78D007ADF22 /* CafeListCollectionViewCell.swift */; };
 		914B1E682BBDE9A5007ADF22 /* CafeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1E672BBDE9A5007ADF22 /* CafeListModel.swift */; };
+		914B1E6E2BC2B3DE007ADF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1E6D2BC2B3DE007ADF22 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		914B1E622BBDE255007ADF22 /* CafeList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CafeList.json; sourceTree = "<group>"; };
 		914B1E642BBDE78D007ADF22 /* CafeListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListCollectionViewCell.swift; sourceTree = "<group>"; };
 		914B1E672BBDE9A5007ADF22 /* CafeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListModel.swift; sourceTree = "<group>"; };
+		914B1E6D2BC2B3DE007ADF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				914B1E5C2BBDD37D007ADF22 /* CafeMapVC.swift */,
 				914B1E642BBDE78D007ADF22 /* CafeListCollectionViewCell.swift */,
 				914B1E672BBDE9A5007ADF22 /* CafeListModel.swift */,
+				914B1E6D2BC2B3DE007ADF22 /* ViewController.swift */,
 			);
 			path = CafeApp;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				914B1E5B2BBDD36D007ADF22 /* CafeListVC.swift in Sources */,
 				914B1E652BBDE78D007ADF22 /* CafeListCollectionViewCell.swift in Sources */,
 				914B1E472BBDCE4A007ADF22 /* AppDelegate.swift in Sources */,
+				914B1E6E2BC2B3DE007ADF22 /* ViewController.swift in Sources */,
 				914B1E682BBDE9A5007ADF22 /* CafeListModel.swift in Sources */,
 				914B1E492BBDCE4A007ADF22 /* SceneDelegate.swift in Sources */,
 			);
